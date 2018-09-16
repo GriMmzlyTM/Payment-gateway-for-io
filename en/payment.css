@@ -1,0 +1,107 @@
+body {
+    background-image: url("https://i.imgur.com/ij73Mjd.png");
+    padding: 0;
+    margin: 0;
+}
+
+#body-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 25vh;
+    margin: 0vh 25vw;
+    background-color: rgba(73, 90, 104,80%);
+    align-text: center;
+    border: 2px solid black;
+
+}
+
+#payment-container{
+    display: inline-flex;
+    align-items: center;
+    margin: 5vh 12.5vw 12.5vh;
+
+}
+
+#text-container{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info{
+    text-align: center;
+    font-size: 150%;
+}
+
+#desc{
+    text-align: center;
+    padding: 0 10%;
+    font-size: 100%;
+}
+
+h2,p{
+   color: white;
+   text-shadow:
+       1.5px 1.5px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#confirmation{
+    text-align: center;
+    padding: 10%;
+}
+
+
+#customButton{
+
+ display:inline-block;
+padding:0.46em 1.6em;
+border:0.1em solid #000000;
+margin:0 0.2em 0.2em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#000000;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+background-color:#FFFFFF;
+text-align:center;
+transition: all 0.15s;
+background-color:#42cc8c;
+
+}
+#customButton:hover{
+text-shadow: 0 0 2em rgba(255,255,255,1);
+color:#FFFFFF;
+border-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+#customButton{
+display:block;
+margin:0.4em auto;
+}
+}
+
+#logo{
+    display: block;
+    margin: 5% 0;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+#page-container{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25vw;
+    align-text: center;
+}
+

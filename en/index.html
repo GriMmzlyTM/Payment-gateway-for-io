@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="https://checkout.stripe.com/v3/checkout/button.css"></link>
+        <link href="/payment.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <script src="https://checkout.stripe.com/checkout.js"></script>
+        <div id="page-container">
+            <img id="logo"src="/tortonmind-logo-stroke.svg">
+            <div id="body-container">
+                <div id="text-container">
+                    <h2 id="info">LOADING DATA...</h2></br>
+                    <p id="desc">Please wait while we initialize the page...</p></br>
+                    <p id="confirmation"></p>
+                </div>
+                <div id="payment-container">
+                    <button id="customButton">Stripe checkout (Credit)</button>
+                    <div id="paypal-button"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <footer>
+        <script src="/payment.js"></script>
+        
+    </footer>
+</html>
+
+

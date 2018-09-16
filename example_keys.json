@@ -1,0 +1,36 @@
+{
+    "name" : "App name",
+    "version" : "1.0.0",
+    "paypal" : {
+        "sandbox" : {
+            "clientID" : "",
+            "secretID" : ""
+        },
+        "live" : {
+            "clientID" : "",
+            "secretID" : ""
+        }
+        
+    },
+    "stripe" : {
+        "test" : {
+            "secretkey" : "",
+            "publishablekey" : ""
+        },
+        "live" : {
+            "publishablekey" : "",
+            "secretkey" : ""
+        },
+        "transfers" : {
+            "riv" : "",
+            "shawn" : "",
+            "george" : ""
+        }
+    },
+    "parse" : {
+        "url" : "",
+        "appID" : "",
+        "jsID" : "",
+        "masterKey" : ""
+    }
+}
